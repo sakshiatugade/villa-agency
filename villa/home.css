@@ -1,0 +1,660 @@
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   background-color:cornsilk;
+    height: 65px;
+    font-size: larger;
+    color: rgb(16, 99, 224);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ 
+}
+.main{
+    height:90vh;
+  width: 100%;
+    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/30/00/25/villa-2186914_1280.jpg");
+    background-size: cover;
+    background-position: center;
+ margin: 0;
+ overflow-x: hidden;
+   
+    
+}
+.main h1{
+    color:rgba(255, 230, 0, 0.993);
+    font-size:4em;
+    margin-left: 100px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family:sans-serif;
+}
+
+.orangebox1{
+
+background-color: rgb(49, 45, 48);
+border-radius: 50%;
+right:300px;
+position: absolute;
+height: 50px;
+width: 50px;
+bottom:9px;
+}
+.orangebox1 i{
+    color: rgb(255, 253, 253);
+    top: 20px;
+    left: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+span:hover{
+    color: rebeccapurple;
+}
+h1{
+    padding: 50px;
+}
+li:hover{
+    color:rebeccapurple;
+}
+
+nav ul li{
+    margin: 0 20px;
+    font-weight: 800;
+}
+nav ul li a{
+
+    text-decoration: none;
+}
+.span2
+{   color: rgb(255, 235, 235);
+    margin-top: 10px;
+    background-color: rgba(255, 62, 3, 0.952);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.page2{
+    height: 120%;
+    width: 100%;
+    background-color:aliceblue;
+    display: flex;
+}
+
+.page2-container{
+    display: flex;
+    margin-top: 100px;
+  gap: 45px;
+    position: relative;
+    
+}
+
+.page2 .span{
+ 
+    color: red;
+    font-size: 35px;
+    margin-left:10px;
+   
+   
+}
+
+.page2 img{
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+.text-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    
+}
+
+
+
+.page2 .headings{
+    margin-top: 30px;
+    padding: 0%;
+    margin-left:50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.info{
+
+    margin-left: 20px;
+}
+.info span{
+
+    color:red;
+    font-weight: 800;
+}
+.info span2{
+    color: black;
+    font-weight: 600;
+}
+.info span3{
+    color: blue;
+    text-decoration-line: underline;
+}
+.info p{
+
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+}
+.long-container
+{
+height: 500px;
+width: 250px;
+background-color: rgb(255, 255, 255);
+margin-left: 50px;
+margin-right: 50px;
+padding:0%;
+border-radius: 30px;
+box-shadow: 2px 2px 5px black;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-left: 20px;
+
+}
+.page2 .long-container{
+    margin-left: 90px;
+}
+
+.long-container .div1 img
+{
+    margin-left:10px;
+}
+
+
+.parent
+{
+    display: flex;
+   border-bottom: solid 1px;
+   color: rgb(194, 190, 190);
+}
+.parent3{
+     display: flex;
+}
+.parent4{
+    display: flex;
+}
+.div1 p{
+    margin-left:20px;
+    color: grey;
+}
+
+.div2 p{
+margin-top: 50px;
+    font-size: 2em;
+    font-weight: 600;
+    margin-right:30px;
+    color: rgb(12, 11, 11);
+}
+
+
+.page3 {
+ height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top:40px;
+   background-image: url(https://cdn.pixabay.com/photo/2016/04/15/11/45/hotel-1330841_1280.jpg);
+   background-size: cover;
+
+  top: 0px;
+}
+.blur{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 400px;
+    font-size: 1em;
+    margin-top: 20px;
+  
+}
+.page3 .blur h1{
+    color:rgba(12, 11, 12, 0.603);
+}
+
+.page3 h1 {
+  font-size: 4em;
+  color: goldenrod;
+  text-align: center;
+  /* text-shadow:3px 3px  rgb(73, 72, 72); */
+}
+
+.page4
+{
+  height: 40vh;
+  width: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    gap:100px;
+    margin-top: 100px;
+}
+
+.page4 .box
+{
+ width: 250px;
+ height: 100px;
+ background-color: rgb(247, 222, 213);
+ border-radius: 20px;
+ display: flex;
+ gap: 40px;
+ margin-top: 50px;
+ margin-left: 100px;
+ color: rgb(250, 88, 29);
+ position: relative;
+ box-shadow: 3px 3px 3px rgb(116, 113, 113);
+
+}
+
+.page4 .box p{
+    font-size: 3em;
+    font-weight: 900;
+    margin: 20px;
+    color: darkorange;
+}
+
+.text-container2
+{
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color:black ;
+    line-height: 30px;
+    margin-right: 10px;
+   
+}
+
+
+.page5
+{
+    height: 65vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+.page5 .text-container
+{
+    margin-left: 100px;
+}
+
+.page5 .text-container span
+{
+    font-size: 1em;
+    font-weight: 700;
+    color: red;
+    margin-top: 20px;
+
+}
+.page5 .text-container p{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.page5  .multiple-div 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.page5 .multiple-div .small-div
+{
+    height: 50px;
+    width: 150px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 200px;
+    font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+}
+.page6{
+    display: flex;
+    gap: 70px;
+}
+
+
+.page6 .text-container h3{
+
+    color: black;
+   
+}
+
+.page6 .text-container
+{
+    align-items:start;
+    width: 200px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: small;
+    line-height: 30px;
+    margin-left: 70px;
+}
+
+.page6 .text-container button
+{
+    background-color: rgb(8, 8, 8);
+    color: azure;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top:  10px;
+    margin-left: 7px;
+    font-size: large;
+}
+.page6 button:hover
+{
+    background-color: rgb(237, 99, 49);
+     box-shadow: 3px 3px 3px gray;
+
+}
+.page6 .long-container .div2 p{
+    color: rgb(5, 5, 5);
+}
+.page6 .long-container .div1 p{
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.page6 .long-container{
+
+    height: 550px;
+}
+
+.page7
+{
+height: 110vh;
+width: 90vw;
+background-color: rgb(219, 216, 173);
+padding: 60px;
+overflow-x: hidden;
+margin-top: 30px;
+display: flex;
+justify-content: centre;
+}
+.page7 .card
+{
+    height: 500px;
+    width: 250px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px gray;
+    
+
+}
+
+.page7 .card-container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-left:50px;
+
+}
+.page7 .card img{
+    margin: 25px;
+    border-radius: 10px;
+}
+.page7 .card  .span-container
+{
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+}
+
+
+.page7 .card  .span-container span
+{
+    background-color: rgb(233, 210, 180);
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.page7 .card  .span-container p{
+    display: inline-block;
+    margin: 0%;
+    color: orangered;
+    font-size: 25px;
+    font-weight: 600;
+}
+.page7 .card  h3{
+    margin-left: 20px;
+  
+}
+.page7 .card  .text-container
+{
+   color: rgb(72, 71, 71);
+   margin-left: 30px;
+   line-height: 20px;
+}
+.page7 .card button{
+    background-color: black;
+    color:aliceblue;
+    border-radius: 25px;
+    padding:6px;
+    width: 60%;
+ margin-top: 20px;
+ margin-left: 50px;
+ text-decoration: none;
+ box-shadow: 3px 3px 3px gray;
+
+
+}
+.page7 .card button:hover
+{
+    background-color: rgb(237, 99, 49);
+     box-shadow: 3px 3px 3px gray;
+
+} 
+
+
+
+.footer
+{
+    height: 100vh;
+    width: 100vw;
+
+}
+.footer-content{
+    display: flex;
+    gap: 100px;
+}
+
+.footer .map
+{
+    height: 400px;
+    width: 500px;
+    background-color: bisque;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.footer .map h3{
+   margin-left: 30px;
+}
+
+.footer .form
+{
+    margin-top: 50px;
+   margin-left: 150px;
+    height: 470px;
+    width: 250px;
+    background-color:white;
+    border-radius: 25px;
+    padding:40px;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+.footer .form input{
+    width: 100%;
+    border-radius: 25px;
+    height: 25px;
+    text-decoration: none;
+    background-color: rgb(244, 244, 245);
+    /* padding: 3px; */
+    border: none;
+    padding-left: 20px;
+    
+}
+
+ textarea {
+  padding: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  resize: none; 
+  background-color: rgb(244, 244, 245);
+  border-radius: 20px;/* optional */
+  text-decoration: none;
+  border: none;
+
+}
+
+textarea::placeholder {
+  text-align: left;
+}
+
+.footer .form button
+{
+    background-color: black;
+    color: azure;
+    height: 40px;
+    width: 130px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top:  20px;
+    margin-left: 15px;
+    font-size: large;
+}
+.footer .form button:hover{
+    background-color: rgb(235, 18, 18);
+}
+.footercard1
+{
+    height: 150px;
+    width: 300px;
+    background-color:white;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+   
+ 
+}
+
+
+.card1-content
+{
+    display: flex;
+    flex-direction: row;
+}
+.footercard2
+{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px gray;   
+ 
+}
+
+
+
+.footer .card1-para
+{
+    color: gray;
+    margin-left: 20px;
+    
+}
+
+.footer .card1-icon{
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+
+.footer .card1-heading
+{
+
+ font-size: 25px;
+ font-weight: 700;
+ margin-left: 20px;
+}
+
+.footer .card2-heading
+{
+
+ font-size: 20px;
+ font-weight: 700;
+ margin-left: 20px;
+}
+
+.footer .card2-icon{
+    margin-left: 20px;
+    margin-top: 15px;
+   
+}
+
+.card2-content
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+
+.footer .card2-para
+{
+    color: gray;
+    margin-left: 20px;
+    
+}
+.card-container{
+     
+    display: flex;
+    gap: 50px;
+    margin-left: 60px;
+}
+.end{
+  display: flex;
+  justify-content: center;
+    height:30vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: 160px;
+}
+.end p{
+    font-size: 1.5em;
+    font-weight: 400;
+  margin-top: 70px;
+  margin-right: 300px;
+    color: white;
+}
+.end h4{
+    color: white;
+    margin-right: 50px;
+}

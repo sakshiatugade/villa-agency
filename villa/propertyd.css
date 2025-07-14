@@ -1,0 +1,266 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   background-color:cornsilk;
+    height: 65px;
+    font-size: larger;
+    color: rgb(16, 99, 224);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ 
+}
+.main{
+    height:90vh;
+  width: 100%;
+    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/30/00/25/villa-2186914_1280.jpg");
+    background-size: cover;
+    background-position: center;
+ margin: 0;
+ overflow-x: hidden;
+   
+    
+}
+.main h1{
+    color:rgba(255, 230, 0, 0.993);
+    font-size:4em;
+    margin-left: 100px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family:sans-serif;
+}
+
+.orangebox1{
+
+background-color: rgb(49, 45, 48);
+border-radius: 50%;
+right:320px;
+position: absolute;
+height: 50px;
+width: 50px;
+bottom:9px;
+}
+.orangebox1 i{
+    color: rgb(255, 253, 253);
+    top: 20px;
+    left: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+span:hover{
+    color: rebeccapurple;
+}
+h1{
+    padding: 50px;
+}
+li:hover{
+    color:rebeccapurple;
+}
+
+nav ul li{
+    margin: 0 20px;
+    font-weight: 800;
+}
+nav ul li a{
+
+    text-decoration: none;
+}
+.span2
+{   color: rgb(255, 235, 235);
+    margin-top: 10px;
+    background-color: rgba(255, 62, 3, 0.952);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+
+.page1{
+    height: 40vh;
+    width: 100%;
+}
+.page1 .img {
+    margin-top: 0px;
+    opacity: 0.8;
+    position: relative;
+    color: black;
+}
+.page1 .sub span{
+    position: absolute;
+    top: 200px;
+    margin-left: 41%;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    
+    height: 38px;
+    width: 200px;  background-color: white;
+    color: rgb(39, 34, 34);
+}
+.page1 .sub h1{
+    position: absolute;
+    top: 220px;
+    margin-left: 20%;
+    padding-left: 30px;
+   
+    padding-top: 10px;
+    font-size: 4.5em;
+  
+   
+
+}
+.sub h1{
+
+    color:rgb(239, 255, 167);
+}
+.page2{
+    height: 120%;
+    width: 100%;
+margin-top: 50px;
+    display: flex;
+}
+
+.page2-container{
+    display: flex;
+    margin-top: 100px;
+  gap: 45px;
+    position: relative;
+    
+}
+
+.page2 .span{
+ 
+    color: red;
+    font-size: 35px;
+    margin-left:10px;
+   
+   
+}
+
+.page2 img{
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+.text-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    
+}
+
+
+
+.page2 .headings{
+    margin-top: 30px;
+    padding: 0%;
+    margin-left:50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.info{
+
+    margin-left: 20px;
+}
+.info span{
+
+    color:red;
+    font-weight: 800;
+}
+.info span2{
+    color: black;
+    font-weight: 600;
+}
+.info span3{
+    color: blue;
+    text-decoration-line: underline;
+}
+.info p{
+
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+}
+.long-container
+{
+height: 500px;
+width: 250px;
+background-color: rgb(255, 255, 255);
+margin-left: 50px;
+margin-right: 50px;
+padding:0%;
+border-radius: 30px;
+box-shadow: 2px 2px 5px black;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-left: 20px;
+
+}
+.page2 .long-container{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.long-container .div1 img
+{
+    margin-left:10px;
+}
+
+
+.parent
+{
+    display: flex;
+   border-bottom: solid 1px;
+   color: rgb(194, 190, 190);
+}
+.parent3{
+     display: flex;
+}
+.parent4{
+    display: flex;
+}
+.div1 p{
+    margin-left:20px;
+    color: grey;
+}
+
+.div2 p{
+margin-top: 50px;
+    font-size: 2em;
+    font-weight: 600;
+    margin-right:30px;
+    color: rgb(12, 11, 11);
+}
+
+
+.end{
+  display: flex;
+  justify-content: center;
+    height:30vh;
+    width: 100vw;
+    background-color: black;
+    /* margin-top: 160px; */
+}
+.end p{
+    font-size: 1.5em;
+    font-weight: 400;
+  margin-top: 70px;
+  margin-right: 300px;
+    color: white;
+}
+.end h4{
+    color: white;
+    margin-right: 50px;
+}
